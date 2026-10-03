@@ -1,0 +1,13 @@
+{
+  "name": "topple",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TOPPLE: everyone gets the same 20 blocks today. Build the tallest tower before it falls.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node scripts/build.js --check && node tests/ui.test.js",
+    "balance": "node tests/balance.js"
+  },
+  "devDependencies": { "planck": "1.4.2" },
+  "engines": { "node": ">=18" }
+}
