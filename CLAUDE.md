@@ -45,6 +45,14 @@ Skill roughly doubles the result. Even the careful bot loses about 8 blocks, bec
 - Private playtest link (claude.ai artifact, only the owner can open it): https://claude.ai/artifact/4Mb7JgoHWjj21CQy5Qne8B
 - `EPOCH` in `engine.js` is 3 Oct 2026 (tower #1 = launch day). Do not change it after launch: it would renumber every tower.
 
+## Estado / contexto
+
+- Live since launch day (3 Oct 2026) at https://bori147.github.io/topple/ (GitHub Pages from `main`, repo root). This repo is **public**, and every push to `main` publishes, so run `npm run build && npm test` before pushing. Never put secrets or personal data here.
+- The market report `docs/research-mercado.md` stays local on purpose (it is in `.gitignore`): never `git add -f` it.
+- Next step is real-player playtesting (targets below), and only with the owner's go-ahead.
+- The owner is not a developer: explain things in plain Spanish and don't ask them to type terminal commands.
+- The live URL has an external uptime monitor run by the owner; if the URL ever changes, tell them so it can be updated.
+
 ## Next steps, in order
 
 1. Playtest with real people. Targets before investing more: next-day return (D1) above 30 %, and at least 5 % of daily players sharing their result.
