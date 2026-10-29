@@ -47,6 +47,8 @@ Skill roughly doubles the result. Even the careful bot loses about 8 blocks, bec
 
 ## Estado / contexto
 
+- `llms.txt` (repo root, served at /topple/llms.txt since 2026-10-29): hand-written summary for AI assistants. Update it if the rules, controls or URL change.
+
 - Live since launch day (3 Oct 2026) at https://bori147.github.io/topple/ (GitHub Pages from `main`, repo root). This repo is **public**, and every push to `main` publishes, so run `npm run build && npm test` before pushing. Never put secrets or personal data here.
 - The market report `docs/research-mercado.md` stays local on purpose (it is in `.gitignore`): never `git add -f` it.
 - Next step is real-player playtesting (targets below), and only with the owner's go-ahead.
