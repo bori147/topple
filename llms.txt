@@ -1,0 +1,19 @@
+# TOPPLE
+
+> A daily physics game for the web: everyone in the world gets the same 20 blocks today. Build the tallest tower before it falls.
+
+Free, in the browser on a phone or a computer, with no sign-up. One official attempt per day with the same blocks for every player, a shareable result that shows the shape of your tower without giving anything away, and a practice mode with random blocks that is always open.
+
+## Play
+
+- [Play TOPPLE](https://bori147.github.io/topple/): today's tower and the practice mode.
+
+## How it works
+
+- Drag to aim, release to drop, and use the round button (or R / arrow up) to rotate a block 45°. On a keyboard: arrows to move, space to drop.
+- When the last block lands, the tower has to stand for three seconds; its highest point is your score.
+- A new set of 20 blocks every day, the same for everyone.
+
+## About
+
+- [Source code](https://github.com/bori147/topple): a single self-contained page; physics by planck.js, a JavaScript port of Box2D.
